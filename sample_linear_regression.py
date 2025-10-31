@@ -10,7 +10,7 @@ test_scores = np.array([50, 55, 65, 70, 75, 80])
 # Create the linear regression model
 model = LinearRegression()
 
-# Train the model
+# Train the model but decide on metrics
 model.fit(hours_studied, test_scores)
 
 # Predict scores
