@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 hours_studied = np.array([1, 2, 3, 4, 5, 6]).reshape(-1, 1)
 test_scores = np.array([50, 55, 65, 70, 75, 80])
 
-# Create the linear regression model
+# Create a simple linear regression model
 model = LinearRegression()
 
 # Train the model but decide on metrics
